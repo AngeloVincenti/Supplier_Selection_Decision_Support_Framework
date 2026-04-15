@@ -107,12 +107,6 @@ Definiti nella tesi:
 
 ---
 
-## ▶️ Esecuzione
-
-Per eseguire il progetto:
-
-```bash
-python main.py
 
 ## 📈 Output
 
@@ -140,3 +134,12 @@ Il framework produce:
 - applicazione ad altri dataset
 - sperimentazione di altri approcci di MCDM
 - sperimentazione di altre metriche di centralità
+
+---
+
+## ▶️ Esecuzione
+
+Per eseguire il progetto:
+
+```bash
+python main.py
