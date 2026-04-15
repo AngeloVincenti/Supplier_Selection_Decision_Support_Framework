@@ -6,9 +6,14 @@ Framework sperimentale per la **selezione dei fornitori** nell'ambito del procur
 - Particle Swarm Optimization (PSO)
 - Fuzzy TOPSIS: Metodo di Multi-Criteria Decision Making 
 
-Questo progetto è stato sviluppato come supporto per la mia tesi di laurea triennale in Informatica all'università di Bari Aldo Moro
-In questo lavoro si propone una metodologia innovativa per affrontare il problema della supplier selection in modo più approfondito rispetto agli approcci multicriterio tradizionali, 
-i quali considerano i criteri come statici ed indipendenti mentre in questo lavoro si introduce la dinamicità dei criteri considerando come interagiscono fra loro.
+Questo progetto è stato sviluppato come supporto per la mia tesi di laurea triennale in Informatica all'università di Bari Aldo Moro.
+Tesi di laurea in: Computational Intelligence
+Relatore: Prof. Corrado Mencar
+Correlatore: Dr. Davide Cazzorla
+
+
+In questo lavoro si propone una metodologia innovativa per affrontare il problema della supplier selection in modo più approfondito rispetto agli approcci tradizionali della letteratura, 
+i quali considerano i criteri come statici ed indipendenti mentre in questo lavoro si introduce la dinamicità dei criteri considerando come interagiscono fra loro (Fuzzy Cognitive Map).
 
 ---
 
@@ -17,9 +22,10 @@ i quali considerano i criteri come statici ed indipendenti mentre in questo lavo
 L’obiettivo del framework è:
 
 - modellare le **relazioni causali** tra i criteri di valutazione, rappresentandoli attraverso un grafo;
-- ottimizzare tali relazioni tramite PSO;
-- trasformare la struttura causale in un **vettore dei pesi**, attraverso tecniche di trasformazione;
+- ottimizzare tali relazioni tramite PSO, sulla base di una **funzione di fitness**;
+- trasformare la struttura causale in un **vettore dei pesi** che stabilisce l'importanza dei criteri, attraverso tecniche di trasformazione;
 - utilizzare i pesi nel **Fuzzy TOPSIS** per ottenere il ranking finale dei fornitori.
+- confrontare i risultati raggiunti (ranking dei fornitori, vettori d'importanza) fra gli approcci della metodologia e l'articolo di riferimento
 
 ---
 
