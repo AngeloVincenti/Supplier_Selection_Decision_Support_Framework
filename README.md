@@ -7,8 +7,11 @@ Framework sperimentale per la **selezione dei fornitori** nell'ambito del procur
 - Fuzzy TOPSIS: Metodo di Multi-Criteria Decision Making 
 
 Questo progetto è stato sviluppato come supporto per la mia tesi di laurea triennale in Informatica all'università di Bari Aldo Moro.
+
 Tesi di laurea in: Computational Intelligence
+
 Relatore: Prof. Corrado Mencar
+
 Correlatore: Dr. Davide Cazzorla
 
 
@@ -110,3 +113,30 @@ Per eseguire il progetto:
 
 ```bash
 python main.py
+
+## 📈 Output
+
+Il framework produce:
+
+- matrice iniziale W0
+- matrice ottimizzata W_best
+- vettore dei pesi dei criteri
+- ranking finale dei fornitori
+
+
+---
+
+## 📌 Risultati principali
+
+- Il framework produce un ranking **chiaro e ben discriminante** nei valori di RC
+- Le trasformazioni **ROC-based** e **centrality-based** generano risultati molto simili
+- La trasformazione **centrality-based** non richiede un ranking iniziale dei criteri, risulta più efficace
+
+---
+
+## 🚀 Sviluppi futuri
+
+- validazione con esperti di dominio
+- applicazione ad altri dataset
+- sperimentazione di altri approcci di MCDM
+- sperimentazione di altre metriche di centralità
